@@ -22,3 +22,5 @@ const multiplicationTable = n => {
   }
   return res;
 }
+
+// or
