@@ -24,3 +24,8 @@ const multiplicationTable = n => {
 }
 
 // or
+
+multiplicationTable = function(size) {
+  return Array(size).fill(0).map((_,j)=> 
+         Array(size).fill(0).map((_,i)=>(j+1)*(i+1)));
+}
