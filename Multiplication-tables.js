@@ -11,3 +11,14 @@ For the given example, the return value should be:
 
 
 // Solution
+
+const multiplicationTable = n => {
+  const res = [];
+  for (let i = 1; i <= n; i++) {
+    const row = [];
+    for (let j = 1; j <= n; j++)
+      row.push(i * j);
+    res.push(row);
+  }
+  return res;
+}
